@@ -1,0 +1,183 @@
+header {
+    background-image: url('/public/bg.jpg');
+    background-color: #ffffff;
+    padding: 20px 0;
+
+
+    /* styles.css */
+}
+.header-text {
+    margin-right: 20px; /* Espaciado entre los textos */
+    /* Otras propiedades de estilo según sea necesario */
+  }
+
+
+  .caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-container {
+    flex: 1; /* El logotipo ocupa todo el espacio disponible */
+}
+
+
+.nav-links {
+    display: flex;
+  }
+  
+.nav-links a {
+    margin-left: 15px;
+    text-transform: uppercase;
+    color: #ccc6c6;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+  }
+nav{
+  nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #fdfdfd;
+    text-decoration: underline;
+}
+
+/* styles.css */
+
+body {
+    background-image: url('/public/fondobody1.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el cuerpo */
+    background-position: center; /* Centra la imagen en el cuerpo */
+    background-repeat: no-repeat; 
+    font-size: 15px;
+    color: black;
+  /* Evita que la imagen se repita */
+    /* Añade cualquier otro estilo que desees para el cuerpo */
+  }
+.imagen-diferenciales{
+    width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000;
+}
+
+.imagen-diferenciales:hover{
+    opacity: 0.3;
+}
+
+.productos{
+  width: 940px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+  
+/* Ejemplo de CSS para un formulario */
+form {
+    max-width: 500px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar el formulario en el contenedor */
+  }
+  
+  label {
+    display: block; /* Hace que cada etiqueta esté en una nueva línea */
+    margin-bottom: 8px; /* Márgenes inferiores para separar las etiquetas */
+  }
+  
+  input,
+  textarea {
+    width: 100%; /* Ajustar el ancho completo del contenedor padre */
+    padding: 8px; /* Añadir relleno para un aspecto más espaciado */
+    margin-bottom: 16px; /* Márgenes inferiores para separar los campos */
+  }
+  
+
+
+.titulo-listado{
+    text-align: center;
+      background-color: #8d8d8dfa;
+      padding: 5px; /* Ajusta el relleno según sea necesario */
+      border-radius: 5px; /* Añade bordes redondeados si lo deseas */
+      color: black;
+    
+  }
+.detail-container {
+    background-image: url('/public/fondoform1.jpg');
+    padding: 15px; /* Ajusta el espacio interno del contenedor */
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    max-width: 2000px; /* Ajusta el tamaño máximo del contenedor */
+    margin: 0 0 0 0px; /* Centra el contenedor horizontalmente */
+    color: rgb(255, 255, 255);
+  }
+
+.login-container {
+  background-image: url('/public/fondoform1.jpg');
+  padding: 15px; /* Ajusta el espacio interno del contenedor */
+  border-radius: 12px;
+  margin-top: 120px;
+  font-size: 15px;
+  max-width: 400px; /* Ajusta el tamaño máximo del contenedor */
+  margin: 20px 500px 40px; /* Centra el contenedor horizontal y verticalmente */
+  color: rgb(255, 255, 255);
+}
+
+/* styles.css */
+
+ /* Agrega un borde para resaltar el contenedor */
+
+
+p{
+/* styles.css */
+  text-align: justify; /* Alinea el texto justificado */
+  line-height: 1.5; /* Ajusta la altura de línea según sea necesario */
+  letter-spacing: 1px; /* Ajusta el espaciado entre letras según sea necesario */
+  word-spacing: 2px; /* Ajusta el espaciado entre palabras según sea necesario */
+
+
+}
+/* styles.css */
+
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#items {
+  width: calc(33.33% - 20px); /* Ajusta según sea necesario */
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+
+.copyright{
+    background-image: url('/public/bg.jpg');
+    background-color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
